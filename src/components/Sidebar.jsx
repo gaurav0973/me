@@ -14,6 +14,7 @@ import {
   Heart,
   Sparkles,
   Circle,
+  Newspaper,
 } from "lucide-react";
 
 const Sidebar = ({ isOpen }) => {
@@ -149,9 +150,17 @@ const Sidebar = ({ isOpen }) => {
           onHover={() => setHoveredIcon("mail")}
           isHovered={hoveredIcon === "mail"}
         />
-
         
+        <SocialLink
+          icon={<Newspaper className="w-5 h-5" />}
+          href="https://hashnode.com/@gaurav009"
+          title="Hashnode"
+          color="hover:bg-[#ea4335] hover:text-white"
+          onHover={() => setHoveredIcon("hashnode")}
+          isHovered={hoveredIcon === "hashnode"}
+        />
 
+          
         
       </div>
 
