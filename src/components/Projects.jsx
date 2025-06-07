@@ -5,12 +5,12 @@ function Projects() {
   const [showMoreProjects, setShowMoreProjects] = useState(false);
 
   const featuredProject = {
-    title: "Learn to Code RPG",
+    title: "LeetQuest: Leetcode inspired Platform",
     description:
-      "A visual novel game where you can learn to code and break into tech. I created the game for freeCodeCamp.org, the biggest global non-profit with the mission to help everyone learn to code for free. The game features hours of play time, 600+ CS quiz questions, and more.",
-    technologies: ["Ren'Py", "Python"],
+      "A LeetCode-inspired platform for practicing coding problems, built with React, Node.js, and MongoDB. It features user authentication, problem-solving capabilities, and a sleek UI.",
+    technologies: ["React", "Node.js", "MongoDB", "Express.js", "Tailwind CSS"],
     image: "/api/placeholder/600/400", // You'll need to add the actual image
-    github: "#",
+    github: "https://github.com/gaurav0973/LeetQuest",
     demo: "#",
     featured: true,
   };

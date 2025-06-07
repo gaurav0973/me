@@ -1,9 +1,5 @@
 function AboutMe() {
-  const technologies = [
-    { left: "Python", right: "Java" },
-    { left: "C#", right: "Unity Game Dev Engine" },
-    { left: "Heroku", right: "Ren'Py Game Dev Engine" },
-  ];
+  
 
   return (
     <section
@@ -25,47 +21,23 @@ function AboutMe() {
             <p>Hello! My name is Gaurav.</p>
 
             <p>
-              When I'm not busy building software, I develop games and
-              open-source projects. My open-source chess and rhythm game
-              templates are rated 5 stars on{" "}
-              <span className="text-[#7aa2f7]">itch.io</span>. My most recent
-              passion project is{" "}
-              <span className="text-[#7aa2f7]">a Discord AI chatbot</span> with
-              the personality of my favorite video game character, running live
-              on a 1000+ user Discord server. I also enjoy creating technical
-              tutorials for <span className="text-[#7aa2f7]">freeCodeCamp</span>{" "}
-              and on <span className="text-[#7aa2f7]">my YouTube channel</span>.
-              To explore my passion for teaching, I've recently started as{" "}
-              <span className="text-[#7aa2f7]">an Udemy instructor</span>.
-            </p>
+      I’m Gaurav Kumar Maurya, a CSE student at{" "}
+      <span className="text-[#7aa2f7]">JUIT</span> with a strong interest in
+      full-stack development. I’ve built projects like a{" "}
+      <span className="text-[#7aa2f7]">Kanban Chrome extension</span> and a{" "}
+      <span className="text-[#7aa2f7]">LeetCode-inspired platform</span>, and
+      interned at <span className="text-[#7aa2f7]">Astraea Solutions</span>,
+      working on LMS integrations. Skilled in{" "}
+      <span className="text-[#7aa2f7]">JavaScript</span>,{" "}
+      <span className="text-[#7aa2f7]">Node.js</span>,{" "}
+      <span className="text-[#7aa2f7]">MongoDB</span>, and authentication
+      systems, I also actively contribute to community service through the{" "}
+      <span className="text-[#7aa2f7]">Rotaract Club</span>.
+    </p>
 
-            <p>
-              Here are my favorite technologies for building awesome software
-              and games:
-            </p>
           </div>
 
-          {/* Technologies List */}
-          <div className="mt-6 sm:mt-8">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
-              {technologies.map((tech, index) => (
-                <div key={index} className="grid grid-cols-1 gap-2">
-                  <div className="flex items-center gap-3">
-                    <span className="text-[#7aa2f7] text-sm">◆</span>
-                    <span className="text-[#9aa5ce] text-sm sm:text-base">
-                      {tech.left}
-                    </span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <span className="text-[#7aa2f7] text-sm">◆</span>
-                    <span className="text-[#9aa5ce] text-sm sm:text-base">
-                      {tech.right}
-                    </span>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
+          
         </div>
 
         {/* Profile Image */}
