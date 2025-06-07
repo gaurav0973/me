@@ -17,30 +17,6 @@ function Projects() {
 
   const otherProjects = [
   {
-    title: "LeetQuest",
-    description:
-      "A LeetCode-inspired platform for solving coding challenges with features like custom problem editor, streak tracking, and leaderboard.",
-    technologies: ["React", "Node.js", "Express", "MongoDB", "JavaScript"],
-    github: "https://github.com/gaurav0973/LeetQuest",
-    demo: "#",
-  },
-  {
-    title: "me",
-    description:
-      "Personal portfolio website showcasing my background, skills, and projects. Built to reflect my personality and professional journey.",
-    technologies: ["JavaScript", "HTML", "CSS"],
-    github: "https://github.com/gaurav0973/me",
-    demo: "#",
-  },
-  {
-    title: "cyberRange",
-    description:
-      "Forked cyber lab project designed for learning and practicing cybersecurity scenarios.",
-    technologies: ["Python", "Networking"],
-    github: "https://github.com/gaurav0973/cyberRange",
-    demo: "#",
-  },
-  {
     title: "Blog Page",
     description:
       "A full-featured blog web app with pages for viewing, editing, and creating posts. Implements routing and blog-style layouts.",
@@ -56,6 +32,23 @@ function Projects() {
     github: "https://github.com/gaurav0973/ThunderTab_kanban_extension",
     demo: "https://gaurav0973.github.io/ThunderTab_kanban_extension/",
   },
+  {
+    title: "cyberRange",
+    description:
+      "Forked cyber lab project designed for learning and practicing cybersecurity scenarios.",
+    technologies: ["Python", "Networking"],
+    github: "https://github.com/gaurav0973/cyberRange",
+    demo: "#",
+  },
+  {
+    title: "me",
+    description:
+      "Personal portfolio website showcasing my background, skills, and projects. Built to reflect my personality and professional journey.",
+    technologies: ["JavaScript", "HTML", "CSS"],
+    github: "https://github.com/gaurav0973/me",
+    demo: "#",
+  },
+  
 ];
 
 
