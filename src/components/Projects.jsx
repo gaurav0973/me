@@ -16,60 +16,48 @@ function Projects() {
   };
 
   const otherProjects = [
-    {
-      title: "Clicky Galaxy",
-      description:
-        "My first game in Unity, built in a week. A galaxy-themed casual match-three game that uses complex graph traversal algorithms. Awarded Best Individually Completed Project in UChicago's 2021 Spring Tech Showcase.",
-      technologies: ["C#", "Unity"],
-      github: "#",
-      demo: "#",
-    },
-    {
-      title: "Rhythm Game Engine for Ren'Py",
-      description:
-        "A light-weight, extensible rhythm game engine that had 250+ downloads in a month and rated 5-stars on itch.io.",
-      technologies: ["Python", "Ren'Py"],
-      github: "#",
-      demo: "#",
-    },
-    {
-      title: "Smart Luggage Case 'BoVo'",
-      description:
-        "My first technical project in high school, built in three weeks. BoVo, short for 'Bon Voyage', has an elaborate system with 3D-printed wheel locks and a supplemental Android app for remote signaling.",
-      technologies: [
-        "Arduino",
-        "Android Studio",
-        "3D Printing",
-        "Rhino 3D Modeling",
-      ],
-      github: "#",
-      demo: "#",
-    },
-    {
-      title: "Portfolio Website",
-      description:
-        "A modern, responsive portfolio website built with React and Tailwind CSS featuring smooth animations and dark theme.",
-      technologies: ["React", "Tailwind CSS", "Vite"],
-      github: "#",
-      demo: "#",
-    },
-    {
-      title: "Task Management System",
-      description:
-        "Collaborative task management tool with real-time updates, team features, and project organization capabilities.",
-      technologies: ["React", "Node.js", "MongoDB"],
-      github: "#",
-      demo: "#",
-    },
-    {
-      title: "Weather Dashboard",
-      description:
-        "Beautiful weather application with location-based forecasts, data visualization, and weather map integration.",
-      technologies: ["React", "Chart.js", "Weather API"],
-      github: "#",
-      demo: "#",
-    },
-  ];
+  {
+    title: "LeetQuest",
+    description:
+      "A LeetCode-inspired platform for solving coding challenges with features like custom problem editor, streak tracking, and leaderboard.",
+    technologies: ["React", "Node.js", "Express", "MongoDB", "JavaScript"],
+    github: "https://github.com/gaurav0973/LeetQuest",
+    demo: "#",
+  },
+  {
+    title: "me",
+    description:
+      "Personal portfolio website showcasing my background, skills, and projects. Built to reflect my personality and professional journey.",
+    technologies: ["JavaScript", "HTML", "CSS"],
+    github: "https://github.com/gaurav0973/me",
+    demo: "#",
+  },
+  {
+    title: "cyberRange",
+    description:
+      "Forked cyber lab project designed for learning and practicing cybersecurity scenarios.",
+    technologies: ["Python", "Networking"],
+    github: "https://github.com/gaurav0973/cyberRange",
+    demo: "#",
+  },
+  {
+    title: "Blog Page",
+    description:
+      "A full-featured blog web app with pages for viewing, editing, and creating posts. Implements routing and blog-style layouts.",
+    technologies: ["React", "CSS", "JavaScript"],
+    github: "https://github.com/gaurav0973/blogPage",
+    demo: "#",
+  },
+  {
+    title: "ThunderTab – Kanban Extension",
+    description:
+      "A Chrome new-tab extension featuring a simple and responsive Kanban-style task manager with drag-and-drop and local storage.",
+    technologies: ["JavaScript", "HTML", "CSS", "Chrome Extension API"],
+    github: "https://github.com/gaurav0973/ThunderTab_kanban_extension",
+    demo: "https://gaurav0973.github.io/ThunderTab_kanban_extension/",
+  },
+];
+
 
   const visibleProjects = showMoreProjects
     ? otherProjects
